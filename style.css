@@ -772,13 +772,8 @@ ul .two,.three{
 }
 
 .midhead2{
-    height:80px;
-    display:flex;
-    
-    align-items:center;
-    justify-content: center;
+    display:none;
 }
-
 .midhead button{
     border:none;
     background-color:transparent;
@@ -956,8 +951,21 @@ ul .two,.three{
     text-overflow: ellipsis;
     overflow:hidden;
 }
-
-
+.line{
+    width:80px;
+}
+.line2{
+    transform:translateX(-3px);
+}
+.l-three{
+    transform:translateX(-4px);
+}
+.line3,.l-four{
+    transform:translateX(-8px);
+}
+.r-button{
+    transform:translateX(1px);
+}
     }
 
 @media screen and (min-width:798px){
@@ -967,6 +975,19 @@ width:347px;
 height:329.64px;
 
 
+}
+#place2{
+    width:70.5px;
+}
+.line2{
+    transform:translateX(-8px);
+}
+
+.l-three{
+    transform:translateX(-9px);
+}
+.line3,.l-four{
+    transform:translateX(-18px);
 }
 .section-top,.section-bottom{
 grid-template-columns: 347px 347px;
@@ -1062,6 +1083,9 @@ ul.one{
 }
 .label-four{
     transform:translateX(-30px);
+}
+.section-top{
+    margin-top:14px;
 }
 }
 
@@ -1190,7 +1214,7 @@ ul.one{
         padding:24px 80px;
     }
     .section-top{
-        padding-top:10px;
+        padding-top:12px;
     }
 }
 @media screen and (min-width:1640px){
