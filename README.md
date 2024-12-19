@@ -1,1 +1,1 @@
-﻿https://airbnb-clone-git-main-farsanas-projects.vercel.app/
+﻿https://airbnb-clone-jizw.vercel.app/
